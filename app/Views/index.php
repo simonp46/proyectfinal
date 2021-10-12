@@ -31,7 +31,7 @@
 				</div>
 				<nav class="nav-links" id="nav-links">
 					<a href="/app/Views/form.php" class="nav-link active">¿No estas vacunado?</a>
-					<a href="/app/Views/vercita.php" class="nav-link">Mi Cita</a>
+					<a href="<?php echo base_url().'/vercita'?>" class="nav-link">Mi Cita</a>
 				</nav>
 			</div>
 		</div>

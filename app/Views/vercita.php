@@ -29,8 +29,8 @@
                 <div class="line"></div>
             </div>
             <nav class="nav-links" id="nav-links">
-                <a href="index.html" class="nav-link">Inicio</a>
-                <a href="/NuevaCita.html" class="nav-link active">Nueva Cita</a>
+                <a href="<?php echo base_url().'/'?>" class="nav-link">Inicio</a>
+                <a href="<?php echo base_url().'/nuevacita'?>" class="nav-link active">Nueva Cita</a>
             </nav>
         </div>
     </div>
